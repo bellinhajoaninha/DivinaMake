@@ -1,0 +1,268 @@
+html, body {
+background-color: rgb(215,157,167);
+  color: rgb(255,80,110);
+  font-family: "Lora", serif;
+  margin:0;
+  overflow-x: hidden;
+  font-size: 30px;
+}
+
+.slider{
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slide{
+  min-width: 100vw;
+  display:inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+}
+
+.principal {
+  background-image: url("fundo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0; 
+  left: 0;
+  flex-direction: column;
+}
+
+.imagem {
+  height: 250px;
+  margin-left: 320px;
+}
+
+.aviso {
+  color: grey;
+  font-size: 30px;
+}
+
+.caixa{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ max-width: 600px;
+ margin-left: auto;
+}
+
+.botao, .botao2  {
+display: block;
+  font-size: 1.25em;
+  padding: 1em; 
+  margin: 1em 0;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 120px;
+  width: 120vh;
+  color: white;
+}
+
+.botao {
+background-color:pink;
+    color: white;
+   border: 2px solid white;
+}
+
+.botao2 {
+  background-color: transparent;
+   border: 2px solid white;
+  color: #FF8DD2;
+  
+}
+
+.botao:hover{
+  background-color: rgb(255,5,5);
+  color: white;
+}
+
+.botao2:hover{
+  background-color: rgb(255,0,0);
+  color: white;
+}
+
+.aviso {
+  color: grey;
+  font-size: 0.625em; 
+  margin-left: 250px;
+}
+
+.titulo{
+  width: 100%;
+  max-width: 600px;
+  margin-left: 170px;
+  text-shadow: 
+                -1px -1px 0px black,  
+                1px -1px 0px black,
+                -1px 1px 0px black,
+                1px 1px 0px black;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end; 
+  height: 100vh;
+  padding: 2em; 
+}
+
+.menu{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px; 
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  
+}
+
+.menutitulo{
+color: rgb(204,71,204);
+  font-size: 50px;
+ margin-bottom:20px;
+  text-decoration: double;
+  text-align: center;
+}
+
+.menuitem{
+  display: flex;
+  align-items: center;
+  background-color: rgb(247,81,110);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px black;
+  overflow: hidden;
+}
+
+.menuimagem{
+  width: 150px;
+  height: 150px;
+  object-fit: cover 
+}
+
+.menuinfo{
+  padding: 20px;
+}
+
+.itemmenu{
+font-size: 25px;
+  color: black;
+}
+
+.descricao2{
+  font-size: 13px;
+  color: black;
+  text-align: justify;
+}
+
+.preco{
+font-size: 20px;
+  color: black;
+  font-weight: bold;
+  text-ecoration: none;
+}
+
+.titulo2{
+font-size: 45px;
+color: black;
+margin-bottom: 1em;
+text-align: center;
+font-family: "Lora", serif;
+}
+
+.secundario{
+align-items: center;
+margin: 0 1em;
+display:grid;
+grid-emplate-columns: repeat(2, 1fr);
+gap:20px;
+margin-top: 60px;
+}
+
+.descricao{
+font-family: "Lora", serif;
+text-align: center;
+font-size:25px;
+color: white;
+}
+
+.imagem2{
+width: 25%;
+}
+
+.titulo3{
+font-weight:700;
+font-size: 45px;
+color: white;
+margin-bottom: 1em;
+text-align: center;
+}
+
+.dispositivos{
+text-align: center;
+margin-top: 60px;
+}
+
+.dispositivos img{
+height: 100px;
+padding: 0 50px;
+}
+
+.item{
+font-size: 32px;
+color: white;
+padding: 0 50px;
+}
+
+.lista, .rodapelista{
+display: flex;
+justify-content: center;
+list-style-type: none;
+margin: 1em;
+font-family:"Lora", serif;
+}
+
+.listalink a{
+text-decoration: none;
+color: white;
+font-size: 12px;
+margin-left: 1em;
+}
+
+.listalink:hover{
+color: rgb(255,95,123);
+}
+
+.rodapetexto {
+margin: 1em, 0;
+color:pink;
+font-size: 15px;
+}
+
+.logo2{
+height: 100px;
+}
+
+.listalink a:active{
+color: rgb(216,66,92);
+}
+
+.rodape{
+text-align:center;
+margin: 5em 3em;
+}
